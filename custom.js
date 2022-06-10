@@ -1,3 +1,18 @@
+$('.menu') .on('click', function(){
+	$('body') .addClass('no-scroll');
+});
+$('.close') .on('click', function(){
+	$('body') .removeClass('no-scroll');
+});
+
+
+$('.nav-container .checkbox').change(function(){
+ if($(this).is(":checked")) {
+ $('.hamburger-lines .line').removeClass("red-line");
+ } else {
+ $('.hamburger-lines .line').addClass("red-line");
+ }
+});
 
 var images = [];
 images[1] = "https://uploads-ssl.webflow.com/627ffc6b88d0191f66121dde/629dffcd7c3e13923877b602_img-2.png";
