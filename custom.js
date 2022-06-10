@@ -143,3 +143,9 @@ var interval2;
     }
 
  
+
+    $('.slick_home').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
